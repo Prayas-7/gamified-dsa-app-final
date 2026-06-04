@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "challenges",
+  "info": {
+    "singularName": "challenge",
+    "pluralName": "challenges",
+    "displayName": "Challenge"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "instruction": {
+      "type": "string"
+    },
+    "initialState": {
+      "type": "json"
+    },
+    "targetState": {
+      "type": "json"
+    },
+    "targetValue": {
+      "type": "integer"
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "easy",
+        "normal ",
+        "hard"
+      ]
+    },
+    "topic": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::topic.topic"
+    }
+  }
+}

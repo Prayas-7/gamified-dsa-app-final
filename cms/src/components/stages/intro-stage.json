@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_stages_intro_stages",
+  "info": {
+    "displayName": "IntroStage",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "visualType": {
+      "type": "enumeration",
+      "enum": [
+        "locker-row",
+        "graph",
+        "tree",
+        "sequential-scan"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_stages_quiz_stages",
+  "info": {
+    "displayName": "QuizStage",
+    "icon": "manyToMany"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "quiz"
+      ]
+    },
+    "question": {
+      "type": "text"
+    },
+    "options": {
+      "type": "json"
+    },
+    "correctAnswer": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

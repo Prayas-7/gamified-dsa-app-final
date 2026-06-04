@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_stages_puzzle_stages",
+  "info": {
+    "displayName": "PuzzleStage",
+    "icon": "manyToOne"
+  },
+  "options": {},
+  "attributes": {
+    "instruction": {
+      "type": "string"
+    },
+    "initialState": {
+      "type": "json"
+    },
+    "targetState": {
+      "type": "json"
+    },
+    "targetValue": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "puzzle",
+        "sorting-puzzle",
+        "algorithm-puzzle"
+      ]
+    },
+    "hint": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
